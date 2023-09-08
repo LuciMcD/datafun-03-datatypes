@@ -1,12 +1,21 @@
-2023-09-08 13:48:18,658 =============================================================
-2023-09-08 13:48:18,658 =============================================================
-2023-09-08 13:48:18,658 Today is 2023-09-08 at 01:48 PM
-2023-09-08 13:48:18,690 This file is running on: nt Windows 10
-2023-09-08 13:48:18,690 The Python version is: 3.11.4
-2023-09-08 13:48:18,690 The active conda environment is:  None
-2023-09-08 13:48:18,690 The active pip environment is:    None
-2023-09-08 13:48:18,690 The active environment path is:   C:\Users\lucim\AppData\Local\Programs\Python\Python311
-2023-09-08 13:48:18,690 The current working directory is: C:\Users\lucim\Data Fundamentals Repo\datafun-03-datatypes
-2023-09-08 13:48:18,690 This source file is in:           C:\Users\lucim\Data Fundamentals Repo\datafun-03-datatypes
-2023-09-08 13:48:18,690 =============================================================
-2023-09-08 13:48:18,690 =============================================================
+2023-09-08 14:01:47,326 =============================================================
+2023-09-08 14:01:47,326 =============================================================
+2023-09-08 14:01:47,326 Today is 2023-09-08 at 02:01 PM
+2023-09-08 14:01:47,357 This file is running on: nt Windows 10
+2023-09-08 14:01:47,357 The Python version is: 3.11.4
+2023-09-08 14:01:47,357 The active conda environment is:  None
+2023-09-08 14:01:47,357 The active pip environment is:    None
+2023-09-08 14:01:47,357 The active environment path is:   C:\Users\lucim\AppData\Local\Programs\Python\Python311
+2023-09-08 14:01:47,357 The current working directory is: C:\Users\lucim\Data Fundamentals Repo\datafun-03-datatypes
+2023-09-08 14:01:47,357 This source file is in:           C:\Users\lucim\Data Fundamentals Repo\datafun-03-datatypes
+2023-09-08 14:01:47,357 =============================================================
+2023-09-08 14:01:47,357 =============================================================
+2023-09-08 14:01:47,357 Calling funcions from the main block
+2023-09-08 14:01:47,357 list_1: [18, 7, 20, 5, 10, 7, 8, 2, 6, 12, 8, 9, 3, 11, 5, 6, 15, 4, 5, 7]
+2023-09-08 14:01:47,357 mean: 8.4
+2023-09-08 14:01:47,357 median: 7.0
+2023-09-08 14:01:47,357 mode: 7
+2023-09-08 14:01:47,357 stdev: 4.783744404367335
+2023-09-08 14:01:47,357 variance: 22.88421052631579
+2023-09-08 14:01:47,357 listx: [range(1, 10)]
+2023-09-08 14:01:47,357 listy: [6320, 10201, 10504, 11200, 9386, 5754, 5202, 5300, 4800, 4000]

@@ -20,7 +20,7 @@ logger, logname = setup_logger(__file__)
 # TODO: define some custom functions
 #list_1 is a list of numbers representing the number of times a foster child moved homes. The data is made up. 
 list_1 = [18, 7, 20, 5, 10, 7, 8, 2, 6, 12, 8, 9, 3, 11, 5, 6, 15, 4, 5, 7]
-listx = [range(1,11)] #ages of foster children
+listx = [range(1,10)] #ages of foster children
 listy = [6320, 10201, 10504, 11200, 9386, 5754, 5202, 5300, 4800, 4000]#yearly costs for child care based on age
 
 
