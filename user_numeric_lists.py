@@ -135,8 +135,11 @@ def list_1_comprehension():
     evenslist = [ x for x in list_1 if x / 2 == 0]
     logger.info(f"The even numbers in list_1 are: {evenslist}")
 
-    
 
+def show_log():
+    """Read log file and print it to the terminal"""
+    with open(logname, "r") as file_wrapper:
+        print(file_wrapper.read())
 
 # -------------------------------------------------------------
 # Call some functions and execute code!
@@ -146,9 +149,18 @@ def list_1_comprehension():
 # (as opposed to being imported by another module)
 # Literally: "if this module name == the name of the main module"
 if __name__ == "__main__":
-
+    logger.info(f"Calling funcions from the main block")
     # call your functions here (see instructions)
-    print("Replace this with calls to your functions." )
+    list1_statistics()
+    list_correlation_prediction()
+    list_1_built_in_functions()
+    list_methods()
+    list_1_transformations()
+    list_1_comprehension()
+
+    show_log()
+
+
 
 
 
