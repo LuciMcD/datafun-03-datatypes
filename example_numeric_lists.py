@@ -148,7 +148,7 @@ def illustrate_list_correlation_and_prediction():
 
     newy = slope * newx + intercept
 
-    logger.info("We predict that when x = {newx}, y will be about {newy}")
+    logger.info(f"We predict that when x = {newx}, y will be about {newy}")
 
 
 def illustrate_list_built_in_functions():
