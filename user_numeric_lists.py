@@ -166,6 +166,7 @@ def show_log():
 # Literally: "if this module name == the name of the main module"
 if __name__ == "__main__":
     logger.info(f"Calling funcions from the main block")
+    logger.info(f"All values are rounded to the nearest hundreth")
     # call your functions here (see instructions)
     list1_statistics()
     list_correlation_prediction()
