@@ -1,0 +1,35 @@
+2023-09-09 11:31:00,542 =============================================================
+2023-09-09 11:31:00,542 =============================================================
+2023-09-09 11:31:00,542 Today is 2023-09-09 at 11:31 AM
+2023-09-09 11:31:00,566 This file is running on: nt Windows 10
+2023-09-09 11:31:00,566 The Python version is: 3.11.4
+2023-09-09 11:31:00,566 The active conda environment is:  None
+2023-09-09 11:31:00,566 The active pip environment is:    None
+2023-09-09 11:31:00,566 The active environment path is:   C:\Users\lucim\AppData\Local\Programs\Python\Python311
+2023-09-09 11:31:00,566 The current working directory is: C:\Users\lucim\Data Fundamentals Repo\datafun-03-datatypes
+2023-09-09 11:31:00,566 This source file is in:           C:\Users\lucim\Data Fundamentals Repo\datafun-03-datatypes
+2023-09-09 11:31:00,566 =============================================================
+2023-09-09 11:31:00,566 =============================================================
+2023-09-09 11:31:00,566 Calling functions from main block
+2023-09-09 11:31:00,566 tuple1: ('female', 3, 7, 'Missouri', 2)
+2023-09-09 11:31:00,566 tuple2: ('male', 5, 8, 'Tennessee', 1)
+2023-09-09 11:31:00,566 tupleconc = ('female', 3, 7, 'Missouri', 2, 'male', 5, 8, 'Tennessee', 1)
+2023-09-09 11:31:00,566 tuple3 = ('female', 3, 7, 'Missouri', 2, 'female', 3, 7, 'Missouri', 2, 'female', 3, 7, 'Missouri', 2)
+2023-09-09 11:31:00,566 tuple4: ('MO', 'TN', 'KS', 'IA')
+2023-09-09 11:31:00,566 Does tuple4 have MO: True
+2023-09-09 11:31:00,566 Does tuple4 have AZ: False
+2023-09-09 11:31:00,566 first item in tuple1:female
+2023-09-09 11:31:00,566 The second item in tuple1 is: 3
+2023-09-09 11:31:00,566 The last item in tuple1: 2
+2023-09-09 11:31:00,566 
+2023-09-09 11:31:00,566 set1 = {0, 1, 2, 3, 4}
+2023-09-09 11:31:00,566 set2 = {2, 3, 4, 5, 6}
+2023-09-09 11:31:00,566 The union of set1 and set2 is: {0, 1, 2, 3, 4, 5, 6}
+2023-09-09 11:31:00,566 The intersection of set1 and set2 is: {2, 3, 4}
+2023-09-09 11:31:00,567 
+2023-09-09 11:31:00,567 dictA: {'gender': 'female', 'age': 3, 'siblings': 2, 'state': 'MO'}
+2023-09-09 11:31:00,567 dictB: {'gender': 'male', 'age': 4, 'siblings': 3, 'state': 'KS'}
+2023-09-09 11:31:00,567 dictC: {'gender': ['female', 'male'], 'age': [1, 2, 3, 4], 'siblings': [0, 2, 3, 4], 'states': ['MO', 'KS', 'IA']}
+2023-09-09 11:31:00,567 Given text_zen_python.text, the word_counts = {'Beautiful': 1, 'is': 10, 'better': 8, 'than': 8, 'ugly.': 1, 'Explicit': 1, 'implicit.': 1, 'Simple': 1, 'complex.': 1, 'Complex': 1, 'complicated.': 1, 'Flat': 1, 'nested.': 1, 'Sparse': 1, 'dense.': 1, 'Readability': 1, 'counts.': 1, 'Special': 1, 'cases': 1, "aren't": 1, 'special': 1, 'enough': 1, 'to': 5, 'break': 1, 'the': 5, 'rules.': 1, 'Although': 3, 'practicality': 1, 'beats': 1, 'purity.': 1, 'Errors': 1, 'should': 2, 'never': 2, 'pass': 1, 'silently.': 1, 'Unless': 1, 'explicitly': 1, 'silenced.': 1, 'In': 1, 'face': 1, 'of': 2, 'ambiguity,': 1, 'refuse': 1, 'temptation': 1, 'guess.': 1, 'There': 1, 'be': 3, 'one--': 1, 'and': 1, 'preferably': 1, 'only': 1, 'one': 2, '--obvious': 1, 'way': 2, 'do': 2, 'it.': 1, 'that': 1, 'may': 2, 'not': 1, 'obvious': 1, 'at': 1, 'first': 1, 'unless': 1, "you're": 1, 'Dutch.': 1, 'Now': 1, 'never.': 1, 'often': 1, '*right*': 1, 'now.': 1, 'If': 2, 'implementation': 2, 'hard': 1, 'explain,': 2, "it's": 1, 'a': 2, 'bad': 1, 'idea.': 2, 'easy': 1, 'it': 1, 'good': 1, 'Namespaces': 1, 'are': 1, 'honking': 1, 'great': 1, 'idea': 1, '--': 1, "let's": 1, 'more': 1, 'those!': 1}
+2023-09-09 11:31:00,567 The word_counts2: {'Beautiful': 1, 'is': 10, 'better': 8, 'than': 8, 'ugly.': 1, 'Explicit': 1, 'implicit.': 1, 'Simple': 1, 'complex.': 1, 'Complex': 1, 'complicated.': 1, 'Flat': 1, 'nested.': 1, 'Sparse': 1, 'dense.': 1, 'Readability': 1, 'counts.': 1, 'Special': 1, 'cases': 1, "aren't": 1, 'special': 1, 'enough': 1, 'to': 5, 'break': 1, 'the': 5, 'rules.': 1, 'Although': 3, 'practicality': 1, 'beats': 1, 'purity.': 1, 'Errors': 1, 'should': 2, 'never': 2, 'pass': 1, 'silently.': 1, 'Unless': 1, 'explicitly': 1, 'silenced.': 1, 'In': 1, 'face': 1, 'of': 2, 'ambiguity,': 1, 'refuse': 1, 'temptation': 1, 'guess.': 1, 'There': 1, 'be': 3, 'one--': 1, 'and': 1, 'preferably': 1, 'only': 1, 'one': 2, '--obvious': 1, 'way': 2, 'do': 2, 'it.': 1, 'that': 1, 'may': 2, 'not': 1, 'obvious': 1, 'at': 1, 'first': 1, 'unless': 1, "you're": 1, 'Dutch.': 1, 'Now': 1, 'never.': 1, 'often': 1, '*right*': 1, 'now.': 1, 'If': 2, 'implementation': 2, 'hard': 1, 'explain,': 2, "it's": 1, 'a': 2, 'bad': 1, 'idea.': 2, 'easy': 1, 'it': 1, 'good': 1, 'Namespaces': 1, 'are': 1, 'honking': 1, 'great': 1, 'idea': 1, '--': 1, "let's": 1, 'more': 1, 'those!': 1}
+2023-09-09 11:31:00,567 
