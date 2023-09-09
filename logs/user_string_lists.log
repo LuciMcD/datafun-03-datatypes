@@ -1,0 +1,26 @@
+2023-09-09 10:10:36,434 =============================================================
+2023-09-09 10:10:36,434 =============================================================
+2023-09-09 10:10:36,434 Today is 2023-09-09 at 10:10 AM
+2023-09-09 10:10:36,457 This file is running on: nt Windows 10
+2023-09-09 10:10:36,457 The Python version is: 3.11.4
+2023-09-09 10:10:36,457 The active conda environment is:  None
+2023-09-09 10:10:36,457 The active pip environment is:    None
+2023-09-09 10:10:36,457 The active environment path is:   C:\Users\lucim\AppData\Local\Programs\Python\Python311
+2023-09-09 10:10:36,457 The current working directory is: C:\Users\lucim\Data Fundamentals Repo\datafun-03-datatypes
+2023-09-09 10:10:36,457 This source file is in:           C:\Users\lucim\Data Fundamentals Repo\datafun-03-datatypes
+2023-09-09 10:10:36,457 =============================================================
+2023-09-09 10:10:36,457 =============================================================
+2023-09-09 10:10:36,457 Calling functions from main block
+2023-09-09 10:10:36,457 Using lists of ages: [0, 1, 2, 3, 4, 5] and the list of moves: [6, 8, 12, 7, 9, 4]
+2023-09-09 10:10:36,457 The length of 2 of our lists is: 12
+2023-09-09 10:10:36,457 This is a set of values from list_ages, list_moves, and list_siblings: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 12}
+2023-09-09 10:10:36,457 Here are zipped tuples, listed respectively: ages, moves, and states [(0, 6, 'MO'), (1, 8, 'TN'), (2, 12, 'KS'), (3, 7, 'IA'), (4, 9, 'MN'), (5, 4, 'NE')]
+2023-09-09 10:10:36,457 
+2023-09-09 10:10:36,457 Creating a random chosen list
+2023-09-09 10:10:36,457 Random list: A child,(female) 3 years old moved 7 times
+2023-09-09 10:10:36,457 
+2023-09-09 10:10:36,457 Calling using_hamlet
+2023-09-09 10:10:36,461 The following are all the characters of hamlet: {'Hamlet', 'Ghost', 'Ophelia', 'Laertes', 'Horatio', 'Polonius', 'Fortinbras'}
+2023-09-09 10:10:36,461 The sorted words are ['Fortinbras', 'Ghost', 'Hamlet', 'Horatio', 'Laertes', 'Ophelia', 'Polonius']
+2023-09-09 10:10:36,461 The length is: 7714
+2023-09-09 10:10:36,461 The length of the filtered_set: 7
