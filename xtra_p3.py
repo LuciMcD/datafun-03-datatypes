@@ -1,79 +1,64 @@
 """
 Optional bonus. See course site for details.
 
->>> len(longwordset1)
-415
-
->>> len(longwordset2)
-197
-
->>> len(longwords)
-13
 """
 
 import doctest
 
-# import from local util_datafun_logger.py
+
 from util_datafun_logger import setup_logger
 
-# Call the setup_logger function to create a logger and get the log file name
 logger, logname = setup_logger(__file__)
 
 
 def compare_two_plays():
     ''' This function compares two plays by Shakespeare.'''
     logger.info("Calling compare_two_plays()")
-        
-    # read from file and get a list of words
 
     with open("text_hamlet.txt", "r") as f1:
         text = f1.read()
         wordlist1 = text.split()  # split on whitespace
 
-    logger.info(f"List of words from play 1: {wordlist1}")
-
-
-    # read from file and get a list of words
+    #logger.info(f"List of words from play 1: {wordlist1}")
+    #wordlist1 contains a lot of words so I'll leave this commented to keep the log clean
 
     with open("text_juliuscaesar.txt", "r") as f2:
         text = f2.read()
         wordlist2 = text.split()  # split on whitespace
 
-    logger.info(f"List of words from play 2: {wordlist2}")
+    #logger.info(f"List of words from play 2: {wordlist2}")
+    #wordlist2 contains a lot of words so I'll leave the commented to keep the log clean
+
+    wordset1 = set(wordlist1) 
+    wordset2 = set(wordlist2)  
+
+    wordset1sort = sorted(wordset1)
+    wordset2sort = sorted(wordset2)
 
 
-    # Done with files - let the files close and the work begin
+   #logger.info(f"The unique sorted words in Hamlet are: {wordset1sort} ")
+   #logger.info(f"The unique sorted words in Julius Caesar are: {wordset2sort}")
+    #Both unique sets have a large number of words so I'll leave it commented out for now
 
-    # Remove duplicates by creating two sorted sets
-    # hint: use sorted() to sort the list
-    # hint: use set() to remove duplicates
-    # name them wordset1 and wordset2
-    wordset1 = set()  # TODO fix this line
-    wordset2 = set()  # TODO fix this line
+    maxlen = 10  
+    logger.info(f"Our max length of words is {maxlen} letters")
+    
+    lonword1 = [word for word in wordset1 if len(word) > maxlen]
+    
+    lonword2 = [word for word in wordset2 if len(word) > maxlen]
 
+    longwordset1 = set(lonword1)  
+    longwordset2 = set(lonword2) 
 
-    # initialize a variable maxlen = 10
-    maxlen = 1  # TODO fix this line
+    logger.info(f"longwordset1 is: {longwordset1}")
+    logger.info(f"")
+    logger.info(f"")
+    logger.info(f"longwordset2 is: {longwordset2}")
 
-    # use a list comprension to get a list of words longer than 10
-    # for word in wordset1
-    # That is:
-    # in a list (e.g. square brackets)
-    # say "[Give me word (for each word in wordset1)
-    #      if len(word) is greater than maxlen]"
-    # then convert the list to a set to we can take the intersection
-    # hint: use set()
-    # name them longwordset1 and longwordset2
-
-    longwordset1 = set()  # TODO: fix this line
-    longwordset2 = set()  # TODO: fix this line
-
-    # find the intersection of the two sets
-    # that is, the words in both longwordset1 1 & longwordset2
-    # name this variable longwords
+    
     longwords = longwordset1 & longwordset2
-
-    # print the length of the sets and the list
+    logger.info(f"The intersection of our 2 sets is: {longwords}")
+   
     print(len(longwordset1))
     print(len(longwordset2))
     print(len(longwords))
