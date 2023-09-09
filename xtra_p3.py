@@ -1,5 +1,6 @@
 """
-Optional bonus. See course site for details.
+Using what we've learned in Module 3, we are comparing the words of Hamlet with Julius Caesar below.
+Some lists/sets are left out of the log just because of the length. Shakespeare was a wordy fellow. 
 
 """
 
@@ -59,6 +60,15 @@ def compare_two_plays():
     longwords = longwordset1 & longwordset2
     logger.info(f"The intersection of our 2 sets is: {longwords}")
    
+    lenA = len(longwordset1)
+    lenB = len(longwordset2)       
+    len1 = len(longwords)
+
+    logger.info(f"The number of longwords is: {len1}")
+
+    sum1 = lenA + lenB + len1
+    logger.info(f"The sum of lenA, lenB, and len1 is: {sum1}")
+
     print(len(longwordset1))
     print(len(longwordset2))
     print(len(longwords))
